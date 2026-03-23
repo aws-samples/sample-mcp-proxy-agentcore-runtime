@@ -1,0 +1,11 @@
+{
+  "agent_name": "mcp-proxy-server",
+  "gateway_endpoint": "https://<your-gateway>.gateway.bedrock-agentcore.<region>.amazonaws.com/mcp",
+  "region": "us-east-1",
+  "iam_role_name": "MCPProxyServerRole",
+  "gateway_api_id": null,
+  "auth_mode": "iam",
+  "cognito_user_pool_id": null,
+  "cognito_client_id": null,
+  "cognito_domain": null
+}
