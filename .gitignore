@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+
+# Virtual environments
+venv/
+.venv/
+
+# IDEs
+.vscode/
+.idea/
+.kiro/
+
+# OS
+.DS_Store
+
+# AgentCore CLI (generated, contains account-specific data)
+agentcore_deploy/.bedrock_agentcore.yaml
+
+# Deployment config (may contain endpoint URLs and account-specific data)
+deploy_config.json
+
+# Logs
+*.log
+
