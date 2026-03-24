@@ -8,6 +8,8 @@ A lightweight MCP proxy that runs on [Amazon Bedrock AgentCore Runtime](https://
 User / Agent  →  MCP Proxy (AgentCore Runtime)  →  AgentCore Gateway  →  Tools
 ```
 
+![Diagram](image/diagram.svg)
+
 The proxy fetches all tools registered on the gateway at startup, registers them locally via FastMCP, and forwards every `tools/call` request to the gateway. Clients connect using the standard MCP streamable-http transport.
 
 The proxy supports two authentication modes for the outbound gateway connection:
