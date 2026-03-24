@@ -1,4 +1,4 @@
-# MCP Proxy Server for AgentCore
+# MCP Proxy Server in AgentCore Runtime
 
 A lightweight MCP proxy that runs on [Amazon Bedrock AgentCore Runtime](https://aws.amazon.com/bedrock/agentcore/) and exposes tools from an AgentCore Gateway as a standard MCP server.
 
