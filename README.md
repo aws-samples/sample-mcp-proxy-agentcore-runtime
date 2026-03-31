@@ -1,6 +1,6 @@
 # MCP Proxy Server in AgentCore Runtime
 
-A lightweight MCP proxy that runs on [Amazon Bedrock AgentCore Runtime](https://aws.amazon.com/bedrock/agentcore/) and exposes tools from an AgentCore Gateway as a standard MCP server.
+A lightweight MCP proxy that runs on [Amazon Bedrock AgentCore Runtime](https://aws.amazon.com/bedrock/agentcore/) and exposes tools from an upstream MCP server as a standard MCP server. The upstream MCP server can be any MCP-compatible endpoint, including MCP servers running on AgentCore Runtime, self-hosted MCP servers, or third-party MCP services. This implementation showcases the pattern using an AgentCore Gateway as the upstream server example, but the proxy architecture applies to any MCP server that you want to add custom controls to.
 
 ## Architecture
 
